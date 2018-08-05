@@ -29,8 +29,10 @@ div{
     padding-bottom: 1px;
 }
 
-#img-div #img{
+#img-div #image{
     max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 #img-caption{
