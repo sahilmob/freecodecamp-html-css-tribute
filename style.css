@@ -1,3 +1,14 @@
+html, body, h1{
+    margin: 0;
+    padding: 0;
+    color: #333
+}
+body{
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+
 div{
     margin: auto;
     text-align: center;
@@ -5,4 +16,45 @@ div{
 #main{
     background-color: #eee;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+#title{
+    padding: 20px 0;
+}
+
+#img-div{
+    margin-top: 15px;
+    background-color: #fff;
+    padding-bottom: 1px;
+}
+
+#img-div #img{
+    max-width: 100%;
+}
+
+#img-caption{
+    margin: 15px
+}
+
+#tribute-info{
+    margin-top: 50px;
+}
+
+#tribute-info ul{
+    max-width: 550px;
+    margin: auto;
+    text-align: left;
+}
+#tribute-info ul li{
+    margin: 10px;
+}
+#tribute-info em{
+    display: block;
+    margin: 20px 30px;
+    
+}
+
+#tribute-footer{
+    margin: auto 30px;
 }
